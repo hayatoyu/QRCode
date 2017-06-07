@@ -1,0 +1,15 @@
+C:\Users\51942\documents\visual studio 2017\Projects\QRCodeFISC\QRCodeFISC\bin\Debug\QRCodeFISC.exe.config
+C:\Users\51942\documents\visual studio 2017\Projects\QRCodeFISC\QRCodeFISC\bin\Debug\QRCodeFISC.exe
+C:\Users\51942\documents\visual studio 2017\Projects\QRCodeFISC\QRCodeFISC\bin\Debug\QRCodeFISC.pdb
+C:\Users\51942\documents\visual studio 2017\Projects\QRCodeFISC\QRCodeFISC\bin\Debug\zxing.dll
+C:\Users\51942\documents\visual studio 2017\Projects\QRCodeFISC\QRCodeFISC\bin\Debug\zxing.presentation.dll
+C:\Users\51942\documents\visual studio 2017\Projects\QRCodeFISC\QRCodeFISC\bin\Debug\zxing.pdb
+C:\Users\51942\documents\visual studio 2017\Projects\QRCodeFISC\QRCodeFISC\bin\Debug\zxing.xml
+C:\Users\51942\documents\visual studio 2017\Projects\QRCodeFISC\QRCodeFISC\bin\Debug\zxing.presentation.pdb
+C:\Users\51942\documents\visual studio 2017\Projects\QRCodeFISC\QRCodeFISC\bin\Debug\zxing.presentation.xml
+C:\Users\51942\documents\visual studio 2017\Projects\QRCodeFISC\QRCodeFISC\obj\Debug\QRCodeFISC.csprojResolveAssemblyReference.cache
+C:\Users\51942\documents\visual studio 2017\Projects\QRCodeFISC\QRCodeFISC\obj\Debug\QRCodeFISC.Form1.resources
+C:\Users\51942\documents\visual studio 2017\Projects\QRCodeFISC\QRCodeFISC\obj\Debug\QRCodeFISC.Properties.Resources.resources
+C:\Users\51942\documents\visual studio 2017\Projects\QRCodeFISC\QRCodeFISC\obj\Debug\QRCodeFISC.csproj.GenerateResource.Cache
+C:\Users\51942\documents\visual studio 2017\Projects\QRCodeFISC\QRCodeFISC\obj\Debug\QRCodeFISC.exe
+C:\Users\51942\documents\visual studio 2017\Projects\QRCodeFISC\QRCodeFISC\obj\Debug\QRCodeFISC.pdb

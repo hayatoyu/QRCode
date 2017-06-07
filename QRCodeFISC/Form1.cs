@@ -1,0 +1,56 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Web;
+
+using ZXing;
+using ZXing.Common;
+using ZXing.QrCode;
+using ZXing.QrCode.Internal;
+
+namespace QRCodeFISC
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void btn_Transfer_Click(object sender, EventArgs e)
+        {
+            string utf8EncodeTxt;
+            if(!string.IsNullOrEmpty(textBox1.Text.Trim()))
+            {
+                var writer = new BarcodeWriter
+                {
+                    Format = BarcodeFormat.QR_CODE,
+                    Renderer = new ZXing.Rendering.BitmapRenderer
+                    {
+                        Background = ColorTranslator.FromWin32(0xFFFFFF),
+                        Foreground = ColorTranslator.FromWin32(0x000000)
+                    },
+                    Options = new QrCodeEncodingOptions
+                    {
+                        Height = pictureBox1.Height,
+                        Width = pictureBox1.Width,
+                        DisableECI = true,
+                        CharacterSet = "UTF-8",
+                        ErrorCorrection = ErrorCorrectionLevel.H,
+                        Margin = 1
+                    }
+                };
+                utf8EncodeTxt = System.Uri.EscapeDataString(textBox1.Text);
+                Bitmap QRCode = writer.Write(utf8EncodeTxt);
+                pictureBox1.Image = QRCode;
+            }
+        }
+    }
+}
