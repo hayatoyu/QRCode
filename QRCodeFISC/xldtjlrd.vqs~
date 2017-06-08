@@ -56,6 +56,7 @@ namespace QRCodeFISC
             var str = "0x0A413132333435363738390000000000";
             var bytes = Encoding.UTF8.GetBytes(str);
             var binstr = string.Join(string.Empty, bytes.Select(b => Convert.ToString(b, 2)));
+            MessageBox.Show(binstr);
 
         }
     }
